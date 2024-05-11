@@ -1,5 +1,8 @@
 #include <ftxui/screen/screen.hpp>
 
-int main() {
+#include <test.h>
 
+int main() {
+    printf("%s", hello_world());
 }
+
